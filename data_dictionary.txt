@@ -5,7 +5,7 @@ age										Integer								Age of the insured individual.
 policy_number							Integer								Insurance policy nuber
 policy_bind_date						Date								Date when the policy became effective.
 policy_state							Categorical/String					The state where the insurance policy is active (e.g., 'OH', 'IN', 'IL').
-policy_csl								Categorical/String					Combined single limit of liability coverage (e.g., '100/300', '250/500'). First number represents 																				maximum claim for one person’s injury and the second number represents maximum total claim per 																					accident.
+policy_csl								Categorical/String					Combined single limit of liability coverage (e.g., '100/300', '250/500'). First number represents the maximum claim for one person’s injury and the second number represents maximum total claim per accident.
 policy_deductable						Integer								The amount the insured must pay before the insurer pays a claim.
 policy_annual_premium					Float								The annual cost of the insurance policy.
 umbrella_limit							Integer								The maximum limit of the umbrella insurance policy (0 if none).
