@@ -1,0 +1,41 @@
+Features   								Data Type  							Description
+———————	   								———————   							—————————————————————————
+months_as_customer						Integer								Number of months the individual has been a customer.
+age										Integer								Age of the insured individual.
+policy_number							Integer								Insurance policy nuber
+policy_bind_date						Date								Date when the policy became effective.
+policy_state							Categorical/String					The state where the insurance policy is active (e.g., 'OH', 'IN', 'IL').
+policy_csl								Categorical/String					Combined single limit of liability coverage (e.g., '100/300', '250/500'). First number represents the maximum claim for one person’s injury and the second number represents maximum total claim per accident.
+policy_deductable						Integer								The amount the insured must pay before the insurer pays a claim.
+policy_annual_premium					Float								The annual cost of the insurance policy.
+umbrella_limit							Integer								The maximum limit of the umbrella insurance policy (0 if none).
+insured_zip								Integer								The zip code of the insured individual.
+insured_sex								Categorical/String					The gender of the insured individual ('Male', 'Female').
+insured_education_level					Categorical/String					The highest education level attained by the insured.
+insured_occupation						Categorical/String					The occupation of the insured individual.
+insured_hobbies							Categorical/String					The hobbies of the insured individual.
+insured_relationship					Categorical/String					The relationship of the insured to the primary policyholder.
+capital-gains							Integer								Capital gains reported by the insured.
+capital-loss							Integer								Capital losses reported by the insured.
+incident_date							Date								The date the insurance incident/accident occurred.
+incident_type							Categorical/String					The type of incident (e.g., 'Single Vehicle Collision', 'Multi-vehicle Collision').
+collision_type							Categorical/String					Specific type of collision, if applicable (e.g., 'Rear Collision', 'Side Collision', 'N/A').
+incident_severity						Categorical/String					The severity of the incident (e.g., ‘’Major Damage’, Minor Damage', 'Total Loss').
+authorities_contacted					Categorical/String					Which authorities were contacted (e.g., 'Police', 'Fire', ‘Ambulance’, 'None').
+incident_state							Categorical/String					The state where the incident occurred.
+incident_city							Categorical/String					The city where the incident occurred.
+incident_location						String								A generalized description of the location of the incident.
+incident_hour_of_the_day				Integer								The hour of the day the incident occurred (0-23).
+number_of_vehicles_involved				Integer								The total number of vehicles involved in the incident.
+property_damage							Categorical/String					Whether property damage was involved ('Yes', 'No', '?').
+bodily_injuries							Integer								The amount of bodiliy injuries involved in the acccident
+witnesses								Integer								The number of witnesses to the incident.
+police_report_available					Categorical/String					Whether a police report was available ('Yes', 'No', '?').
+total_claim_amount						Integer								The total amount claimed for the incident.
+injury_claim							Integer								The portion of the claim amount related to injuries.
+property_claim							Integer								The portion of the claim amount related to property damage.
+vehicle_claim							Integer								The portion of the claim amount related to vehicle damage.
+auto_make								Categorical/String					The manufacturer of the vehicle involved (e.g., 'Honda', 'BMW').
+auto_model								Categorical/String					The specific model of the vehicle involved.
+auto_year								Integer								The year the vehicle was manufactured.
+fraud_reported							Categorical/String					Target variable indicating whether fraud was reported ('Y' or 'N').
