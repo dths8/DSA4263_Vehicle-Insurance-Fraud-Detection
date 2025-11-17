@@ -14,22 +14,17 @@ This project explores the application of machine learning methods to transform f
 Below is the project structure:
 ```
 DSA4263_Vehicle-Insurance-Fraud-Detection/
-├── Dashboard/                         # Main dashboard
-|   └── README.md                      # Dashboard documentation
-├── data/                              # Data files
-│   ├── 
-│   ├──
-│   ├── 
-│   ├──
-│   └──
-├── model_training/                    # Model training files
-│   ├── 
-│   ├── 
-│   ├── 
-│   ├── 
-│   └── 
-├── .gitignore                         # Git ignore file
-└── README.md                          # Project documentation
+├── data/                                     # Data files
+├── model_training/                           # Model training files
+│   ├── unsupervised_learning_models.ipynb    # Notebook for unsupervised learning models
+│   ├── network_models.ipynb                  # Notebook for network models
+│   └── supervised_learning_models.ipynb      # Notebook for supervised learning models
+├── .gitignore                                # Git ignore file
+├── Dockerfile                                #
+├── README.md                                 # Project documentation
+├── app.py                                    # Dashboard app
+├── data_dictionary.txt                       # Data dictionary file
+└── requirements.txt                          # Requirements file
 ```
 
 
@@ -40,6 +35,36 @@ You can clone the repository here:
 git clone https://github.com/dths8/DSA4263_Vehicle-Insurance-Fraud-Detection.git
 ```
 
+# Running the Dashboard with Docker
+
+## Prerequisites
+
+- Please make sure that you have Docker installed on your local machine. You can download and install Docker from https://www.docker.com/products/docker-desktop/.
+- The dashboard uses Python 3.10 as specified in the Dockerfile.
+
+## Build and Run Instructions
+1. Navigate to the dashboard directory
+   ```bash
+   cd DSA4263_Vehicle-Insurance-Fraud-Dectection
+   ```
+2. Build the Docker image :
+
+   ```bash
+   docker build -t my-streamlit-app .
+   ```
+3. Run the Docker image :
+
+   ```bash
+   docker run -p 8501:8501 my-streamlit-app
+   ```
+4. The application will be accessible at `http://localhost:8501`.
+
+## Configuration
+
+- The application exposes port `8501` as defined in the Docker Compose file.
+- No additional environment variables are required for this setup.
+
+For further details, refer to the project documentation or contact the development team.
 
 <h2>Contributors</h2>
 This project is developed by the following developers:<br>
