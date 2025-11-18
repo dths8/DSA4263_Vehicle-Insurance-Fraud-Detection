@@ -66,6 +66,18 @@ git clone https://github.com/dths8/DSA4263_Vehicle-Insurance-Fraud-Detection.git
 
 For further details, refer to the project documentation or contact the development team.
 
+## Streamlit Guide
+After running the docker image and accessing the application you should see the a brief description and workflow of our project:
+<img width="677" height="596" alt="Screenshot 2025-11-19 at 1 04 49 AM" src="https://github.com/user-attachments/assets/69e98cab-e8a4-477e-8bd1-67068ec9d08a" />
+
+Following this introduction, you will find the model simulation section. This interactive section allows you to input features that precisely match the data found in the original dataset. Insurance claimaints have to fill these up before submitting their case for claim processing. Once all claim details are entered, selecting the 'Submit Claim for Fraud Prediction' button triggers the model to instantly assess the claim and determine its probability of being fraudulent.
+
+<img width="677" height="589" alt="Screenshot 2025-11-19 at 1 04 58 AM" src="https://github.com/user-attachments/assets/abdd43e5-838a-4d49-8a16-97ea4f852c63" />
+<img width="677" height="886" alt="Screenshot 2025-11-19 at 1 05 07 AM" src="https://github.com/user-attachments/assets/a06ebfeb-8656-4dd8-a160-7a19461139f0" />
+<img width="677" height="886" alt="Screenshot 2025-11-19 at 1 05 07 AM" src="https://github.com/user-attachments/assets/26d76f96-aa6d-451e-b5f4-07f1ba129a25" />
+
+Lastly, after clicking the button, the model's prediciton result will be generated to show the probability of the claim being fraudulent and also a recommendation for the action to undertake based on the prediction result. Below that, there will also be an explanability section that details the top features driving the model's prediction, showing which factors most strongly contributed to the claim being flagged as fraudulent or deemed legitimate.
+
 <h2>Contributors</h2>
 This project is developed by the following developers:<br>
 
