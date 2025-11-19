@@ -19,6 +19,8 @@ DSA4263_Vehicle-Insurance-Fraud-Detection/
 │   ├── unsupervised_learning_models.ipynb    # Notebook for unsupervised learning models
 │   ├── network_models.ipynb                  # Notebook for network models
 │   └── supervised_learning_models.ipynb      # Notebook for supervised learning models
+├── models/                                   # Saved models
+├── streamlit/                                # Streamlit files
 ├── .gitignore                                # Git ignore file
 ├── Dockerfile                                #
 ├── README.md                                 # Project documentation
