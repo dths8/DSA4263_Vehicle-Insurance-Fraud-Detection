@@ -71,6 +71,7 @@ For further details, refer to the project documentation or contact the developme
 # Dashboard Guide
 ## Project Description and Workflow
 After running the Docker image and accessing the application, you should see a brief description and workflow of our project:
+
 <img width="677" height="596" alt="Screenshot 2025-11-19 at 1 04 49 AM" src="https://github.com/user-attachments/assets/69e98cab-e8a4-477e-8bd1-67068ec9d08a" />
 
 ## Model Simulation
