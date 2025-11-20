@@ -52,7 +52,7 @@ git clone https://github.com/dths8/DSA4263_Vehicle-Insurance-Fraud-Detection.git
 2. Build the Docker image :
 
    ```bash
-   docker build -t my-streamlit-app.
+   docker build -t my-streamlit-app .
    ```
 3. Run the Docker image :
 
