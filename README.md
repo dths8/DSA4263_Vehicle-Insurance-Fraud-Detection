@@ -23,8 +23,8 @@ DSA4263_Vehicle-Insurance-Fraud-Detection/
 ├── streamlit/                                # Streamlit files
 ├── .gitignore                                # Git ignore file
 ├── Dockerfile                                # Dockerfile
+├── docker-compose.yml                        # Docker setup
 ├── README.md                                 # Project documentation
-├── app.py                                    # Dashboard app
 ├── data_dictionary.txt                       # Data dictionary file
 └── requirements.txt                          # Requirements file
 ```
